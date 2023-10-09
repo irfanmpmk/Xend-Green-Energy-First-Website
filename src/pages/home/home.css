@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::selection {
+  background: #1abc9c;
+  color: #fff;
+  text-shadow: none;
+}
+
+header .carousel-inner .item {
+  height: 100vh;
+}
+
+p {
+  font-size: 13pt;
+  font-family: "Raleway", sans-serif;
+}
+
+.botDesc {
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.icon {
+  margin-bottom: 15px;
+  width: 48px !important;
+  height: 48px !important;
+  font-size: 42px;
+  line-height: 48px !important;
+  color: #1fbe9e;
+}
+
+.banner {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.carousel-caption {
+  padding-bottom: 250px;
+  font-family: poppins;
+}
+.carousel-caption h2 {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: black;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-indicators .active {
+  background-color: #edbb00;
+  border-color: #edbb00;
+}
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    padding-bottom: 350px;
+  }
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 210px;
+  }
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+  .carousel-caption a {
+    padding: 10px 25px;
+  }
+}

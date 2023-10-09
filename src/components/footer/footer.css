@@ -1,0 +1,54 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #555555;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.footer {
+  background-image: linear-gradient(to top, rgb(2, 2, 14), rgb(75, 169, 131));
+  padding: 2%;
+  margin-left: -5%;
+
+  margin-bottom: -1%;
+  color: white;
+  border: 1px solid #555555;
+  box-shadow: 4px 0px 2.5px 1px rgba(0, 0, 0, 0.19);
+}
+
+.footerTitle {
+  margin-bottom: 1rem;
+  font-family: OpenSans Bold;
+  font-size: 1.3rem;
+}
+
+.footer_logomenu {
+  margin-top: 1%;
+}
+
+p {
+  display: block;
+  font-size: 17px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footerCopyright {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.social_icon {
+  margin-right: 3%;
+
+  transition: all 0.5s ease-in-out;
+}

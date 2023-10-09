@@ -1,0 +1,220 @@
+#content .container {
+  position: relative;
+}
+/* @media (min-width: 992px) .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
+  max-width: 960px;
+}
+@media (min-width: 768px) .container, .container-sm, .container-md {
+  max-width: 720px;
+}
+@media (min-width: 576px) .container, .container-sm {
+  max-width: 540px;
+} */
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+
+  font-family: Lato, sans-serif;
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+::selection {
+  background: #1abc9c;
+  color: #fff;
+  text-shadow: none;
+}
+
+#botQuest {
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  text-align: center !important;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #777;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.gmap {
+  width: 100%;
+  position: relative;
+}
+
+#fitvid0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  touch-action: pan-x pan-y;
+  cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.card-body {
+  text-align: left;
+  padding-left: 1.25rem;
+}
+
+#s-icons {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-body .fa-clock {
+  position: absolute;
+
+  right: -50px;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 210px;
+  font-weight: 400;
+}
+
+.si-colored {
+  border-color: transparent !important;
+}
+.social-icon {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  line-height: 38px !important;
+  color: #555;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center !important;
+  float: left;
+  margin: 0 5px 5px 0;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.si-facebook {
+  background-color: #3b5998 !important;
+}
+
+.si-instagram {
+  background-color: #8a3ab9 !important;
+}
+
+.si-youtube {
+  background-color: #c4302b !important;
+}
+
+.si-whatsapp {
+  background-color: #25d366 !important;
+}
+
+.quote_form {
+  position: relative;
+  background-color: #e7e4e4;
+  border-radius: 2%;
+  /* margin: -16% 1% -35% 55%; */
+  margin-right: 1%;
+  width: 100%;
+  margin-bottom: -60%;
+  margin-top: 10%;
+  box-shadow: 4px 4px 2.5px rgba(0, 0, 0, 0.19);
+  padding: 4%;
+}
+
+@media screen and (max-width: 1000px) {
+  .quote_form {
+    margin-bottom: 5px;
+  }
+}
+
+.form_title {
+  font-family: "Spline Sans", sans-serif;
+  font-weight: bold;
+  color: #172586;
+  padding-bottom: 2%;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+.button-link {
+  text-decoration-color: #1abc9c;
+  color: #fdfdfd;
+}
+
+.button-link:hover {
+  color: #5e615f;
+}
